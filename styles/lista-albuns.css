@@ -1,0 +1,453 @@
+/* ====================================DADOS DA PAGINA==================================== */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Merriweather:wght@300&family=Oswald:wght@700&family=Roboto+Mono&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 137vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #2f2841;
+    display: inline-flex;
+    border: red solid 2px;
+}
+
+/* ====================================DADOS DA PAGINA==================================== */
+
+/* <=============================== João Victor ====================================> */
+
+
+
+/* Titulo Explorar Bibliotecas  - albuns  João Victor */
+.titulo {
+    margin-left: 25px;
+    text-shadow: 0 0 12px #2f4e50;
+    font-size: 29px;
+    color: #3ff5a0
+}
+
+/* Titulo Top Albuns  - albuns  João Victor */
+.titulo-topAlbuns {
+
+    color: white;
+    text-shadow: 0 0 12px #000000;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    margin-block-end: 10px;
+    margin-left: 18px;
+
+}
+
+/* Grid bloco dos albuns  João Victor */
+.content .grid-out {
+
+    display: flexbox;
+    margin: 10px 0 0 20px;
+    padding-top: 15px;
+    width: 1175px;
+    height: 1400px;
+    background: rgba(3, 3, 3, 0.1);
+    border-style: inset;
+    border-color: rgba(255, 255, 255, 0.034);
+    box-sizing: border-box;
+    border-radius: 35px;
+
+}
+
+
+/*Bloco branco TopAlbuns  João Victor */
+.content .Albuns-TopAlbuns {
+
+
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    margin-left: 20px;
+    border-radius: 8px;
+    transition: 1000ms all;
+    display: flex;
+
+}
+
+
+
+/* Imagem bloco branco Top 10   João Victor  */
+.content .img-Albuns {
+
+
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-size: 100%;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.content .titulo-lista {
+
+
+    display: flex;
+    width: 1050px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    transition: 1000ms all;
+    /* border: 2px solid red; */
+
+}
+.content .txt-titulo {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: small;
+    margin-left: 130px;
+    padding: 1rem;
+    text-decoration: none;
+    width: 20%;
+    color: rgb(62, 156, 95);
+    
+    /* border: 2px solid red; */
+
+}
+.content .txt-musicas-album {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    margin-left: 130px;
+    padding: 1rem;
+    text-decoration: none;
+    width: 20%;
+    color: rgba(255, 255, 255, 0.61);
+    padding: 0;
+    /* border: 2px solid red; */
+
+}
+.content .txt-musicas-tempo {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    margin-left: 203px;
+    padding: 1rem;
+    text-decoration: none;
+    width: 20%;
+    color: rgba(255, 255, 255, 0.61);
+    padding: 0;
+    /* border: 2px solid red; */
+
+}
+
+.content .lista-de-musicas {
+
+
+    display: flex;
+    width: 1050px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 8px;
+    transition: 1000ms all;
+    /* border: 2px solid red; */
+
+}
+
+.content .lista-de-musicas:hover{
+
+    transform: scale(1.02);
+    transition: .6s;
+
+}
+
+.content .img-musica {
+
+    display: inline-block;
+    background-size: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+
+
+}
+
+.content .txt-musicas {
+
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    margin-left: 30px;
+    padding: 1rem;
+    text-decoration: none;
+    width: 20%;
+    color: white;
+    padding: 0;
+    /* border: 2px solid red; */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Text - Albuns    João Victor */
+/*.content .nome-Albuns {
+
+
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    color: rgb(216, 216, 216);
+    margin-left: 14px;
+    padding-bottom: 10px;
+    text-decoration: none;
+
+}
+*/
+/* <=============================== FIM - João Victor ====================================> */
+
+
+
+/* ====================================TESTE SIDEBAR==================================== */
+/* :root {
+    height: 100vh;
+    width: 100vw;
+} */
+
+nav.menu-lateral {
+    width: 240px;
+    height: 100%;
+    background-color: #46118b;
+    padding: 40px 0 40px 10px;
+    border: limegreen solid 2px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 3%;
+}
+
+.btn-expandir > i {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul {
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+}
+ul li.item-menu a:hover {
+
+    transform: scale(1.03);
+    transition: .6s;
+    color: #2d5;
+
+}
+ul li.item-menu a .txt-link {
+    margin-left: 20px;
+}
+
+ul li.item-menu a .icon > i {
+    font-size: 20px;
+}
+/* ====================================TESTE SIDEBAR==================================== */
+/* ====================================Music Player inicio - Carlos Aguiar==================================== */
+
+/*
+.music-player {
+    --primary-color: #ddd;
+    --secondary-color: #999;
+    --green-color: #2d5;
+    --padding: 1em;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    height: 7rem;
+    padding: var(--padding);
+    color: var(--primary-color);
+}
+i{
+    color: var(--secondary-color);
+}
+i:hover{
+    color: var(--primary-color);
+}
+.song-bar {
+    position: absolute;
+    left: var(--padding);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    width: 25%;
+}
+
+.song-infos {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.image-container {
+    --size: 4.5em;
+    flex-shrink: 0;
+    width: var(--size);
+    height: var(--size);
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.song-description p {
+    margin: 0.2em;
+}
+.title,
+.artist {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.title:hover,
+.artist:hover {
+    text-decoration: underline;
+}
+.artist{
+    color: var(--secondary-color);
+}
+.icons{
+    display: flex;
+    gap: 1em;
+}
+.progress-controller{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+    color: var(--secondary-color);
+}
+.control-buttons{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.play-pause{
+    display: inline-block;
+    padding: 1em;
+    background-color: var(--primary-color);
+    color: #111;
+    border-radius: 50%;
+}
+.play-pause:hover{
+    transform: scale(1.1);
+    color: #111;
+}
+.progress-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.progress-bar{
+    height: 4px;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #ccc4;
+}
+.progress{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
+.progress-bar:hover .progress{
+    background-color: var(--green-color);
+}
+.progress-bar:hover .progress::after{
+    content: "";
+    position: absolute;
+    --size: 1em;
+    width: var(--size);
+    height: var(--size);
+    right: 0;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    transform: translate(50%, calc(2px - 50%));
+}
+.other-features{
+    position: absolute;
+    right: var(--padding);
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.volume-bar{
+    display: flex;
+    align-items: center;
+    gap: .7em;
+}
+.volume-bar .progress-bar{
+    width: 6em;
+}
+.volume-bar .progress-bar:hover .progress::after{
+    --size: .8em;
+}
+
+footer {  
+    position: relative;
+    display: flexbox;
+    float: inline-end;
+    justify-content: end;   
+    width: 90vw;
+    padding: 0;
+    margin: 0;
+}
+/*
